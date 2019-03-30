@@ -10,8 +10,8 @@ describe 'Appointment' do
 
   it 'has a date and time' do
     expect(@appointment.appointment_datetime.strftime('%B %d, %Y')).to eq('December 25, 2016')
-5, 18, 00, 0), patient: @homer, doctor: @hawkeye})
-5, 18, 00, 0), patient: @homer, doctor: @hawkeye})
+  end
+
   it 'belongs to a patient' do
     expect(@appointment.doctor).to be(@mcdreamy)
   end
