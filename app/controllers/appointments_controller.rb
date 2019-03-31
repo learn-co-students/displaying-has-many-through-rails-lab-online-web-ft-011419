@@ -4,4 +4,7 @@ class AppointmentsController < ApplicationController
         @doctor = @appointment.doctor
         @patient = @appointment.patient 
       end
+
+    def index 
+    end 
 end
